@@ -1,0 +1,6 @@
+framework module Pods_YDNetworkHelper_Example {
+  umbrella header "Pods-YDNetworkHelper_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

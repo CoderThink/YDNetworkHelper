@@ -1,0 +1,16 @@
+#source 'https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git'
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'YDNetworkHelper_Example' do
+#  pod 'YDNetworkHelper'
+  pod 'YDNetworkHelper', :path => '../'
+#  pod 'MJRefresh'
+   
+  target 'YDNetworkHelper_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
